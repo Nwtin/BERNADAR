@@ -3,7 +3,7 @@ import telebot, requests, re, json
 PRIVADO = [779455996,1625562699]
 #
 #
-GRUPO = []
+GRUPO = [-1001226744741]
 #
 #
 EXCEPT = []
