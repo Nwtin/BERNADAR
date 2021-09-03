@@ -188,7 +188,7 @@ def zn(nome):
 
 @bot.message_handler(commands=['placafull'])
 def placa(message):
-    placa = message.text.replace('/placafull ','')
+    placa = message.text.replace('/placafull','')
     r = requests.get('https://apicarros.com/v2/consultas/{placa}/f63e1e63dd231083d38ce929984aac7d', verify=False)
 
     r = r.json()
