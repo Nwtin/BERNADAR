@@ -4,7 +4,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 PRIVADO = [779455996,1625562699]
 #
 #
-GRUPO = []
+GRUPO = [-1001558388459]
 #
 #
 EXCEPT = []
